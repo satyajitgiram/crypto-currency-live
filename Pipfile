@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+requests = "*"
+pillow = "*"
+celery = {extras = ["redis"], version = "*"}
+channels-redis = "==3.4.1"
+django-channels = "*"
+channels = {extras = ["redis"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

@@ -1,0 +1,66 @@
+body {
+    background-color: #1c1e2e;
+    color: #fdfdff;
+}
+
+.fall {
+    color: red;
+    background-color: #35181d;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px
+}
+
+.raise {
+    color: limegreen;
+    background-color: #173026;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.table_row {
+    color: #fdfdff;
+
+    
+
+
+}
+
+.crypto_symbol {
+    color: #6C757D !important;
+}
+
+
+tbody tr:hover {
+    color: #ffffff;
+    background-color: #292d46;
+    cursor: pointer
+}
+
+table .table_head{
+    height: 50px !important;
+}
+table .table_head:hover{
+    background:none;
+    color:#fdfdff;
+    cursor: none;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #292d46;
+}
+
+tbody tr {
+    color: gray;
+}
+
+tbody tr:hover {
+    color:#ffffff;
+    background-color: #292d46;
+    cursor: pointer
+}
+
+
+
